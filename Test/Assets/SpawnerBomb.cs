@@ -14,14 +14,14 @@ public class SpawnerBomb : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Time.time > nextSpawn)
-       
+
         {
             nextSpawn = Time.time + spawnDelay;
             randomX = Random.Range(-15, 15);
